@@ -1,6 +1,8 @@
 # local-var-manipulate
 This project aims to demonstrate how you can manipulate the local variables of a function from within a CALL it makes. I have built a very simple target function on purpose, in order to make it easier to understand.
 
+**WARNING:** Placement of local variables may differ depending on which architecture and compiler you use. This was tested on 64-bit MSVC. 
+
 # how it works
 First let's take a look at the pseudo code for `local_var_user`.
 ```
