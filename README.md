@@ -68,3 +68,5 @@ Um die Konsole beim Beenden des Debuggens automatisch zu schließen, aktivieren 
 Drücken Sie eine beliebige Taste, um dieses Fenster zu schließen.
 ```
 
+# use cases
+From my experience, there won't be many opportunities where you could be able to utilize this. However, there are still a handful of situations where for example, you have a function that makes use of LVs, calls another function, and then processes those LVs. In that case, you could intercept the call it makes and alter the LVs before they are processed.
